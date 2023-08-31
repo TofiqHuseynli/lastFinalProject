@@ -1,0 +1,75 @@
+.dark .my-nav{
+    background-color: rgb(48, 48, 48)!important;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.dark .right-div{
+    background-color:rgb(48, 48, 48)!important ;
+    color: rgb(236, 236, 236) ;
+    transition: all 0.3s ease;
+}
+
+.dark .board{
+    color:rgb(88, 88, 88)!important  ;
+}
+
+.dark .con{
+    background-color:rgb(48, 48, 48)!important ;
+    transition: all 0.3s ease;
+}
+
+.dark .sidebar, .dark .sidebar-close{
+    background-color:rgb(88, 88, 88)!important ;
+    color: rgb(236, 236, 236);
+    transition: all 0.3s ease;
+}
+
+
+.dark  .link{
+    color: white;
+}
+
+.dark .theme-div{
+    background-color:rgb(88, 88, 88)!important ;
+    color: rgb(236, 236, 236) ;
+}
+
+.dark .item{
+    color: rgb(236, 236, 236) ;
+}
+
+.dark .item:hover{
+    color: rgb(148, 42, 42) ;
+}
+
+.dark .drop-item-div{
+    background-color:rgb(88, 88, 88)!important;
+
+}
+
+.dark .drop{
+    box-shadow: 2px 2px 10px black;
+}
+
+
+.dark .dropActive{
+    box-shadow: 2px 2px 10px black;
+}
+
+.dark .language-drop-down-active{
+    background-color: rgb(88, 88, 88)!important;
+    box-shadow: 2px 2px 10px black;
+}
+
+.dark .notication-active{
+    background-color: rgb(88, 88, 88)!important;
+    box-shadow: 2px 2px 10px black;
+
+}
+
+.dark .notication-non{
+    background-color: rgb(88, 88, 88)!important;
+    box-shadow: 2px 2px 10px black;
+
+}

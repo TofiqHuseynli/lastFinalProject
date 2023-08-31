@@ -1,0 +1,27 @@
+
+
+.item{
+    display: flex;
+    align-items: center;
+    margin:5px;
+    padding: 0 10px;
+    font-size: 18px;
+}
+
+.item:hover{
+    cursor: pointer;
+    color:var(--toogle-icon-color);
+    transition: all 0.3s ease;
+}
+
+.not-icons{
+    z-index: 999;
+    padding-right: 15px;
+
+}
+
+
+
+.test{
+    width: 400px;
+}

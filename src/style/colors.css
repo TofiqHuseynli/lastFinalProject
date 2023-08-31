@@ -1,0 +1,228 @@
+:root{
+    --toogle-icon-color:rgb(87, 198, 241);
+}
+
+
+/* ---------------------------------------Blue color-------------------------------------- */
+
+.blue{
+    color: rgb(70, 117, 245)!important;
+}
+
+.blue .link{
+    color: rgb(70, 117, 245)!important;
+
+}
+
+.blue .link:hover{
+    color: rgb(70, 117, 245)!important;
+}
+
+.blue.board:hover::before{
+    background-color: rgb(70, 117, 245)!important;
+}
+
+.blue.board{
+    color:  rgb(92, 92, 92)!important;
+}
+
+.blue.light-mode{
+    background-color: rgb(70, 117, 245)!important;
+    color: rgb(221, 221, 221)!important;
+}
+
+
+
+.blue img{
+    border-color:rgb(70, 117, 245)!important;
+}
+
+.active-blue{
+    background-color:rgb(70, 117, 245)!important;
+    color:blue!important;
+    background-color: black;
+    width: 180px;
+    height: 60px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* ---------------------------------------Red color-------------------------------------- */
+
+.red{
+    color:rgb(231, 63, 63)!important;
+}
+
+.red .link{
+    color:rgb(231, 63, 63)!important;
+
+}
+.red.board:hover::before{
+    background-color: rgb(231, 63, 63)!important;
+
+}
+
+.red.light-mode{
+    background-color: rgb(231, 63, 63)!important;
+    color: rgb(221, 221, 221)!important;
+}
+
+.red .item{
+    color: white!important;
+}
+
+.red.board{
+    color:  rgb(92, 92, 92)!important;
+}
+
+.red img{
+    border-color:rgb(231, 63, 63)!important;
+
+}
+
+.active-red{
+    background-color: rgb(231, 63, 63)!important;
+    color: rgb(141, 2, 2)!important;
+    background-color: black;
+    width: 180px;
+    height: 60px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+/* ---------------------------------------Cyan color-------------------------------------- */
+
+.cyan{
+    color:rgb(87, 198, 241)!important;
+}
+
+.cyan .link{
+    color:rgb(87, 198, 241)!important;
+
+}
+
+.cyan.board:hover::before{
+    background-color: rgb(87, 198, 241)!important;
+
+}
+
+.cyan.board{
+    color:  rgb(92, 92, 92)!important;
+}
+
+.cyan img{
+    border-color:rgb(87, 198, 241)!important;
+
+}
+
+.cyan.light-mode{
+    background-color:rgb(87, 198, 241)!important ;
+    color: rgb(221, 221, 221)!important;
+}
+
+.active-cyan{
+    background-color: rgb(87, 198, 241)!important ;
+    color: cyan!important;
+    background-color: black;
+    width: 180px;
+    height: 60px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* ---------------------------------------Green color-------------------------------------- */
+
+.green{
+    color:rgb(3, 161, 3)!important;
+}
+
+.green .link{
+    color:rgb(3, 161, 3)!important;
+
+}
+
+.green.board:hover::before{
+    background-color: rgb(3, 161, 3)!important;
+
+}
+.green.light-mode{
+    background-color:rgb(3, 161, 3)!important ;
+    color: rgb(221, 221, 221)!important;
+}
+
+.green.board{
+    color:  rgb(92, 92, 92)!important;
+}
+
+.green img{
+    border-color:rgb(3, 161, 3)!important;
+
+}
+
+.active-green{
+    background-color:rgb(3, 161, 3)!important;
+    color: green!important;
+    background-color: black;
+    width: 180px;
+    height: 60px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ---------------------------------------Orange color-------------------------------------- */
+
+
+.orange{
+    color:orange!important;
+}
+
+
+.orange .link{
+    color:orange!important;
+
+}
+
+.orange.board:hover::before{
+    background-color: orange!important;
+
+}
+
+.orange.board{
+    color:  rgb(92, 92, 92)!important;
+}
+
+.orange img{
+    border-color:orange!important;
+
+}
+
+
+.orange.light-mode{
+    background-color:orange!important ;
+    color: rgb(221, 221, 221)!important;
+}
+
+.active-orange{
+    background-color:orange!important;
+    color: rgb(151, 99, 2)!important;
+    background-color: black;
+    width: 180px;
+    height: 60px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

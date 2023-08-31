@@ -1,0 +1,125 @@
+
+
+.theme-div{
+    position:absolute;
+    background-color: rgb(241, 241, 241);
+    top: 0;
+    right: 0;
+    width: 300px;
+    height: 100vh;
+    color:rgb(92, 92, 92);
+    transition: all 0.3s ease;
+    z-index: 99;
+}
+
+.close-icon{
+    margin-left: 20px;
+    font-size: 25px;
+}
+
+.close-icon:hover{
+    cursor: pointer;
+    color: var(--toogle-icon-color);
+    transition: all 0.3s ease;
+}
+
+.light-mode,.dark-mode{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    margin: auto;
+    border-radius: 15px;
+}
+
+.light-mode:hover,.dark-mode:hover{
+    cursor: pointer;
+    background-color: var(--toogle-icon-color);
+}
+
+.light-mode p, .dark-mode p{
+    margin: 0 15px;
+}
+
+.light-mode-active{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    margin: auto;
+    border-radius: 15px;
+    background-color: black;
+}
+
+.light-mode-active p, .dark-mode-active p{
+    margin: 0 15px;
+}
+
+.mode .white{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50%;
+    margin: 10px 0px;
+}
+
+.mode .black{
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    border-radius: 50%;
+    margin: 10px 0px;
+}
+
+.color-select{
+    align-items: center;
+}
+
+.color{
+    width: 180px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 18px;
+}
+
+.color:hover{
+    cursor: pointer;
+}
+
+.color i{
+    font-size: 30px;
+    margin-right: 20px;
+}
+
+.color-blue{
+    color:rgb(35, 80, 202);
+}
+
+.color-red{
+    color: red;
+}
+
+.color-cyan{
+    color: rgb(52, 212, 212);
+}
+
+.color-green{
+    color: green;
+}
+
+.color-orange{
+    color: orange;
+}
+
+
+.theme-close{
+    position:absolute;
+    top: 0;
+    right: 0;
+    transform: translateX(340px);
+    transition: all 0.3s ease;
+}
+
+
