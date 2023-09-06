@@ -14,7 +14,7 @@ function Context({children}){
         {
             close:JSON.parse(localStorage.getItem('teheme') || true) ,
             mode:JSON.parse(localStorage.getItem('dark') || true),
-            class:JSON.parse(localStorage.getItem('colorTheme') || '')
+            class:JSON.parse(localStorage.getItem('colorTheme') ) || 'cyan'
     
         }
     );
@@ -53,7 +53,7 @@ function Context({children}){
 
     localStorage.setItem('dark',JSON.stringify(state.mode))
 
-    console.log("mode:"+state.mode)
+   
 
 
     const handleColor = (color)=>{
@@ -62,7 +62,7 @@ function Context({children}){
 
     localStorage.setItem('colorTheme',JSON.stringify(state.class))
 
-    console.log("color:"+state.class)
+   
 
 
 

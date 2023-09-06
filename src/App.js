@@ -6,6 +6,7 @@ import Products from  "./pages/Products";
 import Statistics from  "./pages/Statistics";
 import { Route,Routes } from "react-router-dom";
 import Context from "./components/Context";
+import './style/app.css'
 
 function App() {
   const paths = [
@@ -24,7 +25,7 @@ function App() {
       <Context>
       <div className="common-div d-flex">
       <SideBar paths={paths}/> 
-      <div className="right-div d-flex flex-column w-100">
+      <div className="right-div d-flex flex-column w-100 ">
       <Navbar />
       <Routes className='re'>
         {paths.map((item)=>(

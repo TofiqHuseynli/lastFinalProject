@@ -1,0 +1,1206 @@
+{
+    "customers":[
+    {
+      "id": 1,
+      "firstName": "Caitlyn",
+      "lastName": "Zulauf",
+      "email": "katarina.howell29@yahoo.com",
+      "status": true,
+      "birthday": "2023-02-24T01:01:17.943Z",
+      "skills": [
+        ".net",
+        "swift",
+        "redis"
+      ],
+      "avatar": [
+        {
+          "name": "Caitlyn.jpg",
+          "percent": 100,
+          "size": 40088,
+          "status": "done",
+          "type": "image/jpeg",
+          "uid": "rc-upload-1693825566518",
+          "url": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1174.jpg"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "firstName": "Gregg",
+      "lastName": "Barton",
+      "email": "katrina_durgan@yahoo.com",
+      "status": true,
+      "birthday": "2023-08-26T20:54:25.074Z",
+      "skills": [
+        "ember.js",
+        "refine",
+        "svelte"
+      ],
+      "avatar": [
+        {
+          "name": "Gregg.jpg",
+          "percent": 100,
+          "size": 40088,
+          "status": "done",
+          "type": "image/jpeg",
+          "uid": "rc-upload-1693825566518",
+          "url": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/659.jpg"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "firstName": "Chris",
+      "lastName": "Zulauf",
+      "email": "kameron.reichert82@hotmail.com",
+      "status": true,
+      "birthday": "2022-11-27T22:00:43.563Z",
+      "skills": [
+        "ember.js",
+        "html",
+        "angular"
+      ],
+      "avatar": [
+        {
+          "name": "Chris.jpg",
+          "percent": 100,
+          "size": 40088,
+          "status": "done",
+          "type": "image/jpeg",
+          "uid": "rc-upload-1693825566518",
+          "url": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/823.jpg"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "firstName": "Erin",
+      "lastName": "McCullough",
+      "email": "donna_zboncak71@hotmail.com",
+      "status": true,
+      "birthday": "2023-04-14T13:12:35.947Z",
+      "skills": [
+        "redis",
+        "tailwind",
+        "javascript"
+      ],
+      "avatar": [
+        {
+          "name": "Erin.jpg",
+          "percent": 100,
+          "size": 40088,
+          "status": "done",
+          "type": "image/jpeg",
+          "uid": "rc-upload-1693825566518",
+          "url": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1089.jpg"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "firstName": "Ebony",
+      "lastName": "Bosco",
+      "email": "reece_nitzsche@hotmail.com",
+      "status": false,
+      "birthday": "2023-08-29T16:39:05.568Z",
+      "skills": [
+        "css",
+        "angular",
+        ".net"
+      ],
+      "avatar": [
+        {
+          "name": "Ebony.jpg",
+          "percent": 100,
+          "size": 40088,
+          "status": "done",
+          "type": "image/jpeg",
+          "uid": "rc-upload-1693825566518",
+          "url": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/232.jpg"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "firstName": "Eddie",
+      "lastName": "Boyer",
+      "email": "donnie_rowe96@gmail.com",
+      "status": false,
+      "birthday": "2022-12-12T00:24:59.729Z",
+      "skills": [
+        "html",
+        "react",
+        "ember.js"
+      ],
+      "avatar": [
+        {
+          "name": "Eddie.jpg",
+          "percent": 100,
+          "size": 40088,
+          "status": "done",
+          "type": "image/jpeg",
+          "uid": "rc-upload-1693825566518",
+          "url": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/502.jpg"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "firstName": "Marc",
+      "lastName": "Lockman",
+      "email": "tianna.mclaughlin61@yahoo.com",
+      "status": false,
+      "birthday": "2023-05-05T13:14:32.861Z",
+      "skills": [
+        "redis",
+        ".net",
+        "svelte"
+      ],
+      "avatar": [
+        {
+          "name": "Marc.jpg",
+          "percent": 100,
+          "size": 40088,
+          "status": "done",
+          "type": "image/jpeg",
+          "uid": "rc-upload-1693825566518",
+          "url": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1172.jpg"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "firstName": "Lavina",
+      "lastName": "Bartoletti",
+      "email": "juwan_glover@gmail.com",
+      "status": true,
+      "birthday": "2023-08-12T11:10:19.742Z",
+      "skills": [
+        "svelte",
+        "swift",
+        "css"
+      ],
+      "avatar": [
+        {
+          "name": "Lavina.jpg",
+          "percent": 100,
+          "size": 40088,
+          "status": "done",
+          "type": "image/jpeg",
+          "uid": "rc-upload-1693825566518",
+          "url": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/547.jpg"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "firstName": "Kraig",
+      "lastName": "Sipes",
+      "email": "alexane3@hotmail.com",
+      "status": true,
+      "birthday": "2023-08-16T11:45:53.419Z",
+      "skills": [
+        "svelte",
+        "refine",
+        "react"
+      ],
+      "avatar": [
+        {
+          "name": "Kraig.jpg",
+          "percent": 100,
+          "size": 40088,
+          "status": "done",
+          "type": "image/jpeg",
+          "uid": "rc-upload-1693825566518",
+          "url": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1222.jpg"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "firstName": "Amani",
+      "lastName": "Lynch",
+      "email": "cameron.brekke65@hotmail.com",
+      "status": true,
+      "birthday": "2022-11-09T08:49:50.805Z",
+      "skills": [
+        "refine",
+        ".net",
+        "redis"
+      ],
+      "avatar": [
+        {
+          "name": "Amani.jpg",
+          "percent": 100,
+          "size": 40088,
+          "status": "done",
+          "type": "image/jpeg",
+          "uid": "rc-upload-1693825566519",
+          "url": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1026.jpg"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "firstName": "Otha",
+      "lastName": "Cartwright",
+      "email": "jairo.abbott17@gmail.com",
+      "status": false,
+      "birthday": "2023-03-01T19:35:30.672Z",
+      "skills": [
+        "javascript",
+        "angular",
+        "react"
+      ],
+      "avatar": [
+        {
+          "name": "Otha.jpg",
+          "percent": 100,
+          "size": 40088,
+          "status": "done",
+          "type": "image/jpeg",
+          "uid": "rc-upload-1693825566519",
+          "url": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/493.jpg"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "firstName": "Torrey",
+      "lastName": "Kuhic",
+      "email": "isai_torp18@yahoo.com",
+      "status": false,
+      "birthday": "2022-10-01T10:50:23.055Z",
+      "skills": [
+        ".net",
+        "ember.js",
+        "svelte"
+      ],
+      "avatar": [
+        {
+          "name": "Torrey.jpg",
+          "percent": 100,
+          "size": 40088,
+          "status": "done",
+          "type": "image/jpeg",
+          "uid": "rc-upload-1693825566519",
+          "url": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1016.jpg"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "firstName": "Breana",
+      "lastName": "Mann",
+      "email": "kraig15@hotmail.com",
+      "status": true,
+      "birthday": "2023-08-20T02:44:21.267Z",
+      "skills": [
+        ".net",
+        "angular",
+        "css"
+      ],
+      "avatar": [
+        {
+          "name": "Breana.jpg",
+          "percent": 100,
+          "size": 40088,
+          "status": "done",
+          "type": "image/jpeg",
+          "uid": "rc-upload-1693825566519",
+          "url": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/230.jpg"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "firstName": "Eugenia",
+      "lastName": "Ryan",
+      "email": "esteban.emmerich21@yahoo.com",
+      "status": true,
+      "birthday": "2022-11-09T16:02:16.819Z",
+      "skills": [
+        "postgresql",
+        "html",
+        "refine"
+      ],
+      "avatar": [
+        {
+          "name": "Eugenia.jpg",
+          "percent": 100,
+          "size": 40088,
+          "status": "done",
+          "type": "image/jpeg",
+          "uid": "rc-upload-1693825566519",
+          "url": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/675.jpg"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "firstName": "Jaquan",
+      "lastName": "Pfeffer",
+      "email": "eldon4@gmail.com",
+      "status": true,
+      "birthday": "2023-02-03T14:53:41.085Z",
+      "skills": [
+        "angular",
+        "html",
+        "ember.js"
+      ],
+      "avatar": [
+        {
+          "name": "Jaquan.jpg",
+          "percent": 100,
+          "size": 40088,
+          "status": "done",
+          "type": "image/jpeg",
+          "uid": "rc-upload-1693825566519",
+          "url": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/174.jpg"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "firstName": "Baylee",
+      "lastName": "McCullough",
+      "email": "stephania_powlowski21@gmail.com",
+      "status": false,
+      "birthday": "2022-09-17T08:49:12.560Z",
+      "skills": [
+        "postgresql",
+        "refine",
+        "html"
+      ],
+      "avatar": [
+        {
+          "name": "Baylee.jpg",
+          "percent": 100,
+          "size": 40088,
+          "status": "done",
+          "type": "image/jpeg",
+          "uid": "rc-upload-1693825566519",
+          "url": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/848.jpg"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "firstName": "Clarissa",
+      "lastName": "MacGyver",
+      "email": "pascale.predovic@hotmail.com",
+      "status": true,
+      "birthday": "2023-04-03T22:27:43.633Z",
+      "skills": [
+        "css",
+        "svelte",
+        "refine"
+      ],
+      "avatar": [
+        {
+          "name": "Clarissa.jpg",
+          "percent": 100,
+          "size": 40088,
+          "status": "done",
+          "type": "image/jpeg",
+          "uid": "rc-upload-1693825566519",
+          "url": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/109.jpg"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "firstName": "Lily",
+      "lastName": "Murphy",
+      "email": "devan_purdy3@yahoo.com",
+      "status": true,
+      "birthday": "2023-02-03T09:47:05.097Z",
+      "skills": [
+        "swift",
+        "ember.js",
+        "tailwind"
+      ],
+      "avatar": [
+        {
+          "name": "Lily.jpg",
+          "percent": 100,
+          "size": 40088,
+          "status": "done",
+          "type": "image/jpeg",
+          "uid": "rc-upload-1693825566519",
+          "url": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/73.jpg"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "firstName": "Lori",
+      "lastName": "Doyle",
+      "email": "rocio_veum@hotmail.com",
+      "status": false,
+      "birthday": "2022-10-12T14:17:27.235Z",
+      "skills": [
+        "tailwind",
+        ".net",
+        "postgresql"
+      ],
+      "avatar": [
+        {
+          "name": "Lori.jpg",
+          "percent": 100,
+          "size": 40088,
+          "status": "done",
+          "type": "image/jpeg",
+          "uid": "rc-upload-1693825566519",
+          "url": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1235.jpg"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "firstName": "Teagan",
+      "lastName": "Pouros",
+      "email": "willis_kessler@hotmail.com",
+      "status": true,
+      "birthday": "2023-08-18T07:23:26.071Z",
+      "skills": [
+        "svelte",
+        "css",
+        "react"
+      ],
+      "avatar": [
+        {
+          "name": "Teagan.jpg",
+          "percent": 100,
+          "size": 40088,
+          "status": "done",
+          "type": "image/jpeg",
+          "uid": "rc-upload-1693825566519",
+          "url": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/152.jpg"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "firstName": "Lina",
+      "lastName": "Schmitt",
+      "email": "joe_kohler@gmail.com",
+      "status": true,
+      "birthday": "2023-03-22T04:13:19.593Z",
+      "skills": [
+        "svelte",
+        "refine",
+        "ember.js"
+      ],
+      "avatar": [
+        {
+          "name": "Lina.jpg",
+          "percent": 100,
+          "size": 40088,
+          "status": "done",
+          "type": "image/jpeg",
+          "uid": "rc-upload-1693825566519",
+          "url": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/986.jpg"
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "firstName": "Jules",
+      "lastName": "Wilderman",
+      "email": "elsie_klein69@gmail.com",
+      "status": false,
+      "birthday": "2023-01-20T10:27:57.837Z",
+      "skills": [
+        "refine",
+        "javascript",
+        "swift"
+      ],
+      "avatar": [
+        {
+          "name": "Jules.jpg",
+          "percent": 100,
+          "size": 40088,
+          "status": "done",
+          "type": "image/jpeg",
+          "uid": "rc-upload-1693825566519",
+          "url": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/909.jpg"
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "firstName": "Kaleigh",
+      "lastName": "Harber",
+      "email": "sonya0@gmail.com",
+      "status": true,
+      "birthday": "2023-08-22T18:25:16.913Z",
+      "skills": [
+        "postgresql",
+        "css",
+        "redis"
+      ],
+      "avatar": [
+        {
+          "name": "Kaleigh.jpg",
+          "percent": 100,
+          "size": 40088,
+          "status": "done",
+          "type": "image/jpeg",
+          "uid": "rc-upload-1693825566519",
+          "url": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/839.jpg"
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "firstName": "Leanne",
+      "lastName": "Pollich",
+      "email": "lori18@hotmail.com",
+      "status": true,
+      "birthday": "2023-07-14T05:12:14.421Z",
+      "skills": [
+        "tailwind",
+        "redis",
+        "refine"
+      ],
+      "avatar": [
+        {
+          "name": "Leanne.jpg",
+          "percent": 100,
+          "size": 40088,
+          "status": "done",
+          "type": "image/jpeg",
+          "uid": "rc-upload-1693825566519",
+          "url": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/5.jpg"
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "firstName": "Triston",
+      "lastName": "Osinski",
+      "email": "adaline71@gmail.com",
+      "status": false,
+      "birthday": "2022-11-10T05:21:29.796Z",
+      "skills": [
+        "redis",
+        "refine",
+        ".net"
+      ],
+      "avatar": [
+        {
+          "name": "Triston.jpg",
+          "percent": 100,
+          "size": 40088,
+          "status": "done",
+          "type": "image/jpeg",
+          "uid": "rc-upload-1693825566519",
+          "url": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/812.jpg"
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "firstName": "Nona",
+      "lastName": "Nader",
+      "email": "augusta.carroll@gmail.com",
+      "status": true,
+      "birthday": "2022-09-24T13:53:42.935Z",
+      "skills": [
+        "angular",
+        "redis",
+        ".net"
+      ],
+      "avatar": [
+        {
+          "name": "Nona.jpg",
+          "percent": 100,
+          "size": 40088,
+          "status": "done",
+          "type": "image/jpeg",
+          "uid": "rc-upload-1693825566519",
+          "url": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/437.jpg"
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "firstName": "Emmalee",
+      "lastName": "McCullough",
+      "email": "ramon54@hotmail.com",
+      "status": false,
+      "birthday": "2023-03-25T11:03:27.272Z",
+      "skills": [
+        "react",
+        "refine",
+        "tailwind"
+      ],
+      "avatar": [
+        {
+          "name": "Emmalee.jpg",
+          "percent": 100,
+          "size": 40088,
+          "status": "done",
+          "type": "image/jpeg",
+          "uid": "rc-upload-1693825566519",
+          "url": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/323.jpg"
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "firstName": "Bertram",
+      "lastName": "Sauer",
+      "email": "troy34@gmail.com",
+      "status": false,
+      "birthday": "2022-10-31T00:58:23.023Z",
+      "skills": [
+        "swift",
+        ".net",
+        "javascript"
+      ],
+      "avatar": [
+        {
+          "name": "Bertram.jpg",
+          "percent": 100,
+          "size": 40088,
+          "status": "done",
+          "type": "image/jpeg",
+          "uid": "rc-upload-1693825566519",
+          "url": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1007.jpg"
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "firstName": "Edyth",
+      "lastName": "Rolfson",
+      "email": "burley.price@gmail.com",
+      "status": true,
+      "birthday": "2023-01-31T20:34:49.794Z",
+      "skills": [
+        "angular",
+        "html",
+        "tailwind"
+      ],
+      "avatar": [
+        {
+          "name": "Edyth.jpg",
+          "percent": 100,
+          "size": 40088,
+          "status": "done",
+          "type": "image/jpeg",
+          "uid": "rc-upload-1693825566519",
+          "url": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1121.jpg"
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "firstName": "Zackery",
+      "lastName": "Bode",
+      "email": "else_anderson@gmail.com",
+      "status": false,
+      "birthday": "2022-12-07T19:32:47.000Z",
+      "skills": [
+        "redis",
+        "css",
+        "svelte"
+      ],
+      "avatar": [
+        {
+          "name": "Zackery.jpg",
+          "percent": 100,
+          "size": 40088,
+          "status": "done",
+          "type": "image/jpeg",
+          "uid": "rc-upload-1693825566519",
+          "url": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/498.jpg"
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "firstName": "Wendy",
+      "lastName": "Mann",
+      "email": "maynard_stokes@gmail.com",
+      "status": true,
+      "birthday": "2023-06-28T09:49:47.259Z",
+      "skills": [
+        "tailwind",
+        "react",
+        "refine"
+      ],
+      "avatar": [
+        {
+          "name": "Wendy.jpg",
+          "percent": 100,
+          "size": 40088,
+          "status": "done",
+          "type": "image/jpeg",
+          "uid": "rc-upload-1693825566519",
+          "url": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/868.jpg"
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "firstName": "Barton",
+      "lastName": "Rohan",
+      "email": "rashawn.halvorson55@yahoo.com",
+      "status": true,
+      "birthday": "2023-03-05T22:18:13.504Z",
+      "skills": [
+        "tailwind",
+        "swift",
+        "svelte"
+      ],
+      "avatar": [
+        {
+          "name": "Barton.jpg",
+          "percent": 100,
+          "size": 40088,
+          "status": "done",
+          "type": "image/jpeg",
+          "uid": "rc-upload-1693825566519",
+          "url": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1126.jpg"
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "firstName": "Franco",
+      "lastName": "Hagenes",
+      "email": "isabelle.gleichner@gmail.com",
+      "status": true,
+      "birthday": "2023-07-01T04:37:25.414Z",
+      "skills": [
+        "angular",
+        "redis",
+        ".net"
+      ],
+      "avatar": [
+        {
+          "name": "Franco.jpg",
+          "percent": 100,
+          "size": 40088,
+          "status": "done",
+          "type": "image/jpeg",
+          "uid": "rc-upload-1693825566519",
+          "url": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/927.jpg"
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "firstName": "Nedra",
+      "lastName": "Huels",
+      "email": "ansley19@gmail.com",
+      "status": true,
+      "birthday": "2022-11-18T08:31:31.857Z",
+      "skills": [
+        "angular",
+        "redis",
+        "tailwind"
+      ],
+      "avatar": [
+        {
+          "name": "Nedra.jpg",
+          "percent": 100,
+          "size": 40088,
+          "status": "done",
+          "type": "image/jpeg",
+          "uid": "rc-upload-1693825566519",
+          "url": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/183.jpg"
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "firstName": "Domenica",
+      "lastName": "Miller",
+      "email": "luna_herzog@yahoo.com",
+      "status": false,
+      "birthday": "2023-05-04T23:53:36.545Z",
+      "skills": [
+        "html",
+        "react",
+        "refine"
+      ],
+      "avatar": [
+        {
+          "name": "Domenica.jpg",
+          "percent": 100,
+          "size": 40088,
+          "status": "done",
+          "type": "image/jpeg",
+          "uid": "rc-upload-1693825566519",
+          "url": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/358.jpg"
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "firstName": "Monserrate",
+      "lastName": "Schaefer",
+      "email": "annalise.kulas@hotmail.com",
+      "status": true,
+      "birthday": "2022-11-01T05:08:50.720Z",
+      "skills": [
+        "ember.js",
+        "swift",
+        "html"
+      ],
+      "avatar": [
+        {
+          "name": "Monserrate.jpg",
+          "percent": 100,
+          "size": 40088,
+          "status": "done",
+          "type": "image/jpeg",
+          "uid": "rc-upload-1693825566519",
+          "url": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/55.jpg"
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "firstName": "Modesta",
+      "lastName": "Wunsch",
+      "email": "keanu28@hotmail.com",
+      "status": false,
+      "birthday": "2023-03-02T11:50:33.267Z",
+      "skills": [
+        "css",
+        "javascript",
+        ".net"
+      ],
+      "avatar": [
+        {
+          "name": "Modesta.jpg",
+          "percent": 100,
+          "size": 40088,
+          "status": "done",
+          "type": "image/jpeg",
+          "uid": "rc-upload-1693825566519",
+          "url": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/37.jpg"
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "firstName": "Jarred",
+      "lastName": "Grimes",
+      "email": "gay19@hotmail.com",
+      "status": false,
+      "birthday": "2023-03-16T09:41:42.470Z",
+      "skills": [
+        "javascript",
+        "angular",
+        "ember.js"
+      ],
+      "avatar": [
+        {
+          "name": "Jarred.jpg",
+          "percent": 100,
+          "size": 40088,
+          "status": "done",
+          "type": "image/jpeg",
+          "uid": "rc-upload-1693825566520",
+          "url": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/501.jpg"
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "firstName": "Harmon",
+      "lastName": "Adams",
+      "email": "theodore.emard66@gmail.com",
+      "status": true,
+      "birthday": "2023-04-17T10:31:10.710Z",
+      "skills": [
+        ".net",
+        "redis",
+        "react"
+      ],
+      "avatar": [
+        {
+          "name": "Harmon.jpg",
+          "percent": 100,
+          "size": 40088,
+          "status": "done",
+          "type": "image/jpeg",
+          "uid": "rc-upload-1693825566520",
+          "url": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/600.jpg"
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "firstName": "Enid",
+      "lastName": "Kub",
+      "email": "kaycee48@hotmail.com",
+      "status": true,
+      "birthday": "2023-03-05T07:33:28.147Z",
+      "skills": [
+        "ember.js",
+        "swift",
+        "angular"
+      ],
+      "avatar": [
+        {
+          "name": "Enid.jpg",
+          "percent": 100,
+          "size": 40088,
+          "status": "done",
+          "type": "image/jpeg",
+          "uid": "rc-upload-1693825566520",
+          "url": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/772.jpg"
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "firstName": "Joany",
+      "lastName": "Bosco",
+      "email": "amir.strosin98@hotmail.com",
+      "status": true,
+      "birthday": "2023-08-10T10:05:01.887Z",
+      "skills": [
+        "svelte",
+        "html",
+        "ember.js"
+      ],
+      "avatar": [
+        {
+          "name": "Joany.jpg",
+          "percent": 100,
+          "size": 40088,
+          "status": "done",
+          "type": "image/jpeg",
+          "uid": "rc-upload-1693825566520",
+          "url": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/9.jpg"
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "firstName": "Rolando",
+      "lastName": "Frami",
+      "email": "logan.ferry24@hotmail.com",
+      "status": false,
+      "birthday": "2023-05-26T09:03:13.788Z",
+      "skills": [
+        ".net",
+        "react",
+        "swift"
+      ],
+      "avatar": [
+        {
+          "name": "Rolando.jpg",
+          "percent": 100,
+          "size": 40088,
+          "status": "done",
+          "type": "image/jpeg",
+          "uid": "rc-upload-1693825566520",
+          "url": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/510.jpg"
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "firstName": "Hans",
+      "lastName": "Raynor",
+      "email": "giuseppe.kshlerin68@hotmail.com",
+      "status": false,
+      "birthday": "2023-03-15T02:30:59.503Z",
+      "skills": [
+        "html",
+        "swift",
+        "refine"
+      ],
+      "avatar": [
+        {
+          "name": "Hans.jpg",
+          "percent": 100,
+          "size": 40088,
+          "status": "done",
+          "type": "image/jpeg",
+          "uid": "rc-upload-1693825566520",
+          "url": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/242.jpg"
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "firstName": "Rolando",
+      "lastName": "Beahan",
+      "email": "meaghan.kutch32@yahoo.com",
+      "status": false,
+      "birthday": "2023-06-15T08:13:33.373Z",
+      "skills": [
+        "ember.js",
+        ".net",
+        "angular"
+      ],
+      "avatar": [
+        {
+          "name": "Rolando.jpg",
+          "percent": 100,
+          "size": 40088,
+          "status": "done",
+          "type": "image/jpeg",
+          "uid": "rc-upload-1693825566520",
+          "url": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/973.jpg"
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "firstName": "Price",
+      "lastName": "Stracke",
+      "email": "marquis.nienow@yahoo.com",
+      "status": true,
+      "birthday": "2022-12-09T03:48:03.647Z",
+      "skills": [
+        "ember.js",
+        "redis",
+        "svelte"
+      ],
+      "avatar": [
+        {
+          "name": "Price.jpg",
+          "percent": 100,
+          "size": 40088,
+          "status": "done",
+          "type": "image/jpeg",
+          "uid": "rc-upload-1693825566520",
+          "url": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1072.jpg"
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "firstName": "Trinity",
+      "lastName": "Robel",
+      "email": "isom_botsford@hotmail.com",
+      "status": false,
+      "birthday": "2023-01-24T11:05:30.463Z",
+      "skills": [
+        "redis",
+        "ember.js",
+        "postgresql"
+      ],
+      "avatar": [
+        {
+          "name": "Trinity.jpg",
+          "percent": 100,
+          "size": 40088,
+          "status": "done",
+          "type": "image/jpeg",
+          "uid": "rc-upload-1693825566520",
+          "url": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1104.jpg"
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "firstName": "Justice",
+      "lastName": "Breitenberg",
+      "email": "clifford86@gmail.com",
+      "status": true,
+      "birthday": "2022-10-07T21:33:48.154Z",
+      "skills": [
+        "svelte",
+        "javascript",
+        "postgresql"
+      ],
+      "avatar": [
+        {
+          "name": "Justice.jpg",
+          "percent": 100,
+          "size": 40088,
+          "status": "done",
+          "type": "image/jpeg",
+          "uid": "rc-upload-1693825566520",
+          "url": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/690.jpg"
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "firstName": "Trycia",
+      "lastName": "Schowalter",
+      "email": "orval.mitchell@yahoo.com",
+      "status": false,
+      "birthday": "2022-11-12T06:33:03.203Z",
+      "skills": [
+        "postgresql",
+        "refine",
+        ".net"
+      ],
+      "avatar": [
+        {
+          "name": "Trycia.jpg",
+          "percent": 100,
+          "size": 40088,
+          "status": "done",
+          "type": "image/jpeg",
+          "uid": "rc-upload-1693825566520",
+          "url": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/438.jpg"
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "firstName": "Dion",
+      "lastName": "Johnson",
+      "email": "kamren.kunde@yahoo.com",
+      "status": false,
+      "birthday": "2023-04-10T12:57:49.265Z",
+      "skills": [
+        "javascript",
+        "swift",
+        ".net"
+      ],
+      "avatar": [
+        {
+          "name": "Dion.jpg",
+          "percent": 100,
+          "size": 40088,
+          "status": "done",
+          "type": "image/jpeg",
+          "uid": "rc-upload-1693825566520",
+          "url": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/342.jpg"
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "firstName": "Allison",
+      "lastName": "Schneider",
+      "email": "alanna.oberbrunner16@yahoo.com",
+      "status": false,
+      "birthday": "2023-07-29T15:39:03.426Z",
+      "skills": [
+        "svelte",
+        "html",
+        "react"
+      ],
+      "avatar": [
+        {
+          "name": "Allison.jpg",
+          "percent": 100,
+          "size": 40088,
+          "status": "done",
+          "type": "image/jpeg",
+          "uid": "rc-upload-1693825566520",
+          "url": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/884.jpg"
+        }
+      ]
+    }
+    ]
+
+}
+  

@@ -1,0 +1,41 @@
+.columns-drop{
+    width: 250px;
+    height: auto;
+    background-color: white;
+    position:absolute;
+    top: 90px;
+    right: 245px;
+    border-radius: 8px;
+    
+}
+
+.columns-hide{
+    width: 250px;
+    height: auto;
+    background-color: white;
+    position:absolute;
+    top: 50px;
+    right: 0px;
+    border-radius: 8px;
+    display: none;
+    z-index: 999;
+    
+}
+
+.columns-drop ul input.check{
+    width: 18px;
+    height: 18px;
+    margin-right: 10px;
+    background-color: blue!important;
+    color: blue!important;
+}
+
+.columns-drop ul li{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    list-style: none;
+    font-size: 20px;
+    margin-top: 10px;
+    color: rgb(63, 63, 63);
+}
