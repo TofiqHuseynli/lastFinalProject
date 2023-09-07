@@ -80,9 +80,28 @@
     width: 300px!important;
   }
 
+  .delete-btn-div{
+    margin-right: 15px;
+    position: relative;
+  }
+
+  .index-div{
+    position: absolute;
+    right: -5px;
+    top: -5px;
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    background-color: orange;
+    color: black;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
 
   .search-div{
-    margin-left: 15px;
     width: 700px;
   }
 
@@ -165,5 +184,11 @@
 .info-btn i:hover{
    cursor: pointer;
 
+
+}
+
+.del-btn-hidden{
+  display: none;
+  transition: 1s ease;
 
 }

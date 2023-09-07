@@ -7,6 +7,7 @@ import Statistics from  "./pages/Statistics";
 import { Route,Routes } from "react-router-dom";
 import Context from "./components/Context";
 import './style/app.css'
+import './style/media.css';
 
 function App() {
   const paths = [

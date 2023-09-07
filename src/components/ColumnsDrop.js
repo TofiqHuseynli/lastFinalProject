@@ -1,7 +1,7 @@
 import React from "react";
 import "../style/columnsDrop.css";
 
-function ColumnsDrop({ keys, fillArray, handleCheckAll, selectedArray }) {
+function ColumnsDrop({ keys, fillArray, handleCheckAll, selectedArray,checkedAll }) {
   return (
     <div>
       <ul>
@@ -10,7 +10,7 @@ function ColumnsDrop({ keys, fillArray, handleCheckAll, selectedArray }) {
           onChange={handleCheckAll} 
           className="check"
            type="checkbox" 
-           checked={selectedArray.length == keys.length && !selectedArray.length==0 ? true : false}
+           checked={selectedArray.length == keys.length && !selectedArray.length==0  ? true : false}
            />
           <label>All</label>
         </li>
