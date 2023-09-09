@@ -30,6 +30,7 @@ const Customers = () => {
   const [info,setInfo]=useState(false);
   const [infoId,setInfoId]=useState("");
   const [nameFilter,setNameFilter]=useState([]);
+  const [selectedNum,setSelectedNum]=useState(10);
 
   const handleAddShow = () => {
     setAddShow(true);
@@ -157,7 +158,7 @@ const Customers = () => {
 
 
 
-    // const tes = nameFilter.slice(0,1).toUpperCase() + inputFilter.slice(1,inputFilter.length)
+    
 
  
 
@@ -168,7 +169,8 @@ const Customers = () => {
       if(nameFilter.length==0){
         data()
       }else{
-        return item.firstName == nameFilter
+        
+        return item.firstName.toLocaleLowerCase() == nameFilter
 
       }
       
@@ -208,10 +210,21 @@ const getInfoId = (id)=>{
 }
 
 
+const handleSelecLength = ()=>{
+  
+ 
+  const newCustomers = customers.splice(0,selectedNum)
+  setCustomers(newCustomers);
+
+}
 
 
 
 
+
+
+console.log(customers)
+console.log(selectedNum)
 
 
   return (
@@ -221,7 +234,7 @@ const getInfoId = (id)=>{
           <div className="left-side d-flex">
             <div className={checked.length>0 ? "delete-btn-div" : "del-btn-hidden" }>
               <div className="index-div">{checked.length}</div>
-              <button onClick={handleMultiDelete} className="btn btn-danger" >Del</button>
+              <button onClick={handleMultiDelete} className="btn btn-danger" ><i class="fa-solid fa-trash"></i></button>
             </div>
             <div className="search-div">
               <input
@@ -303,7 +316,7 @@ const getInfoId = (id)=>{
         </div>
       </div>
       <table className="customers-table">
-        <tr>
+        <tr className="fixed">
           {keys.map((item) => (
             <>{selectedArray.includes(item) && <th>{item}</th>}</>
           ))}
@@ -340,6 +353,21 @@ const getInfoId = (id)=>{
             );
           })}
       </table>
+      <select
+       value={selectedNum}
+       onChange={
+        (e)=>{setSelectedNum(e.target.value)
+        handleSelecLength()
+        }
+        
+      }
+      >
+       
+        <option>10</option>
+        <option>15</option>
+        <option>20</option>
+        <option>25</option>
+      </select>
     </div>
   );
 };

@@ -1,0 +1,191 @@
+.products-functional-area-search-input{
+    position: relative;
+    margin: 0!important;
+
+}
+
+.products-functional-area-search-input input{
+    width: 500px;
+    padding-right:33px ;
+    
+}
+
+
+.products-functional-area-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.functional-btns-products{
+    display: flex;
+    align-items: center;
+    height: 40px;
+}
+
+.products-btn{
+    background-color: green;
+    margin-right: 20px;
+    width: 120px;
+    height: 40px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+}
+
+.products-btn:hover{
+    cursor: pointer;
+}
+
+.products-columns-drop-div{
+    background-color: rgb(241, 241, 241);
+    width: 190px;
+    height: auto;
+    font-size: 19px;
+    position: absolute;
+    top: 260px;
+    right: 168px;
+    border-radius: 10px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px 0;
+    color: rgb(58, 58, 58);
+
+}
+
+.products-columns-drop-div-active{
+    display: none;
+}
+
+.products-columns-drop-component ul{
+    margin-bottom: 0!important;
+    padding-left: 20px!important;
+
+}
+
+.products-columns-drop-component ul li{
+    list-style: none;
+
+}
+.products-columns-drop-component{
+    display: flex;
+    align-items: center;
+}
+
+
+.products-columns-drop-component ul li input{
+    width: 18px;
+    height: 18px;
+    margin-right: 10px;
+
+}
+
+
+.products-functional-area-div{
+    width: 100%;
+    height: 50px;
+    transition: 0.3s ease;
+    overflow: hidden;
+}
+
+.products-functional-area-div-active{
+    width: 100%;
+    height: 120px;
+    transition:0.3s ease;
+    overflow: hidden;
+}
+
+.products-table-div{
+    overflow-y: scroll;
+    height: 68vh;
+    /* padding-bottom: 5px ; */
+}
+
+
+.products-table-div-active{
+    overflow-y: scroll;
+    height: 60vh;
+    /* padding-bottom: 5px ; */
+}
+
+.products-table-div table{
+    height: 60vh!important;
+    margin-bottom: 20px!important;
+}
+
+.basked-div{
+    margin-bottom: 20px;
+    margin-right: 20px;
+    font-size: 28px;
+    text-align: end;
+    width: auto;
+    position: relative;
+}
+
+.basked-div i{
+    cursor: pointer;
+}
+
+.basked-count{
+    position: absolute;
+    right: -10px;
+    top: 7px;
+    font-size: 15px;
+    width: 17px;
+    height: 17px;
+    background-color: rgb(219, 165, 29);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+.packet-filer,.user-filer,.status-filer{
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    background-color: white;
+    height: 40px;
+    border-radius: 8px;
+    color: black;
+    padding: 0px 8px;
+}
+
+
+
+.packet-filer i,.user-filer i,.status-filer i{
+    margin-right: 10px;
+    font-size: 22px;
+    color: rgb(95, 95, 95);
+}
+
+.packet-filer select,.user-filer select,.status-filer select{
+    width: 300px;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+}
+
+.packet-filer select:hover,.user-filer select:hover,.status-filer select:hover{
+    cursor: pointer;
+}
+
+.search-icon-div{
+    position: absolute;
+    right: 5px;
+    top: 8px;
+    color: black;
+}
+
+.search-icon-div i{
+   
+    color: rgb(160, 160, 160)!important;
+    font-size: 22px;
+}
