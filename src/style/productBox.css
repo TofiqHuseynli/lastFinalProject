@@ -1,0 +1,20 @@
+.products-box-div{
+    width: 350px;
+    height: 100vh;
+    background-color: rebeccapurple;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transition: 0.3s ease;
+}
+
+.products-box-div-hide{
+    transform: translateX(350px);
+    width: 350px;
+    height: 100vh;
+    background-color: rebeccapurple;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transition: 0.3s ease;
+}

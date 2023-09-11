@@ -55,7 +55,7 @@ const Customers = () => {
     data();
   };
 
-  console.log(selectedArray)
+ 
 
   const handleShowInfo = ()=>{
     setInfo(true);
@@ -92,7 +92,7 @@ const Customers = () => {
     katchKeys();
   }, [customers]);
 
-  console.log(keys)
+ 
   const handleColumsShow = () => {
     setColumsShow(!columsShow);
   };
@@ -181,7 +181,7 @@ const Customers = () => {
 
     }
 
-    console.log(nameFilter)
+  
 
   const chooseFunc = (e)=>{
     
@@ -223,8 +223,6 @@ const handleSelecLength = ()=>{
 
 
 
-console.log(customers)
-console.log(selectedNum)
 
 
   return (

@@ -1,4 +1,4 @@
-@media (max-width:1400px) {
+@media (max-width:1850px) {
     .color i{
         font-size: 20px;
         margin-right: 20px;
@@ -16,8 +16,22 @@
       .search-div,
       .search-div input{
         width: 450px;
+      
         
       }
+
+      .products-table-div{
+        overflow-y: scroll;
+        height: 50vh;
+  
+    }
+    
+    
+    .products-table-div-active{
+        overflow-y: scroll;
+        height: 40vh;
+  
+    }
     
 }
 

@@ -1,6 +1,7 @@
-import React, { useEffect, useReducer } from "react";
+import React, { useEffect, useReducer, useRef } from "react";
 import "../style/products.css";
 import ProductsColumnsDrop from "../components/ProductsColumnsDrop";
+import ProductBox from '../components/ProductBox'
 
 function Products() {
   const [productsState, setProductsState] = useReducer(
@@ -11,6 +12,9 @@ function Products() {
       filtersShow: JSON.parse(localStorage.getItem("filterShow")) || false,
       columnsShow:
         JSON.parse(localStorage.getItem("productsColumnsShow")) || false,
+      choosedProducts:[],
+     
+      baketShow:false
     }
   );
 
@@ -19,6 +23,8 @@ function Products() {
     const product2 = await product1.json();
     setProductsState({ products: [...product2] });
   };
+
+  console.log(productsState.choosedProducts)
 
   useEffect(() => {
     dataProducts();
@@ -49,6 +55,45 @@ function Products() {
     "productsColumnsShow",
     JSON.stringify(productsState.columnsShow)
   );
+
+  const handleCheckAdd=(e)=>{
+    if(e.target.checked){
+      setProductsState({choosedProducts:[...productsState.choosedProducts, e.target.name]});
+    }else{
+      let newChecked = productsState.choosedProducts
+      setProductsState({choosedProducts:newChecked.filter((item)=>item !== e.target.name)})
+    }
+  }
+
+
+
+
+  
+
+  const handleBasketShow=()=>{
+    setProductsState({baketShow:true})
+  }
+
+  const onCloseBasket = ()=>{
+    setProductsState({baketShow:false})
+  }
+
+  const badketRef = useRef();
+  const badketAreaRef = useRef();
+ 
+  useEffect(()=>{
+    function handleClickOutsideBasket(e){
+      if(badketRef.current && !badketAreaRef.current.contains(e.target) ){
+        onCloseBasket();
+      }
+    }
+    document.addEventListener("mousedown",handleClickOutsideBasket);
+    return()=>{
+      document.removeEventListener("mousedown",handleClickOutsideBasket)
+    }
+  },[badketAreaRef])
+
+
 
   return (
     <div className="products px-2">
@@ -135,29 +180,49 @@ function Products() {
         </div>
       </div>
       <div className="basked-div">
-        <i class="fa-solid fa-basket-shopping"></i>
-        <div className="basked-count">1</div>
+        <i ref={badketRef} onClick={handleBasketShow} class="fa-solid fa-basket-shopping"></i>
+        <div className={productsState.choosedProducts.length >0 ? "basked-count" : "basked-count-hide" }>{productsState.choosedProducts.length}</div>
       </div>
+      <ProductBox  productsState={productsState} badketAreaRef={badketAreaRef}/>
+
+      {productsState.choosedProducts.map((item)=>(
+           
+console.log(item)
+        ))}
+        
 
       <div className={productsState.filtersShow ? "products-table-div-active" : "products-table-div"}>
+
+
         <table className="customers-table">
-          <tr>
+          <tr className="table-header">
             {productsState.productsKeys.map((k) => (
               <>
                 <th>{k}</th>
               </>
             ))}
+            <th>Info</th>
+            <th>Add</th>
           </tr>
 
           {productsState.products.map((item, key) => (
             <>
-              <tr key={key}>
+              <tr  className="table-body" key={key}>
                 {productsState.productsKeys.map((k) => (
                   <td>{item[k]}</td>
                 ))}
+                 <td className="text-center info-btn">
+                  <i class="fa-solid fa-circle-info"></i>
+                </td>
+                <td className="text-center delete-check">
+                  <input name={`{"name":${item.name},"email":${item.email},"phone":${item.phone}}`}  onChange={handleCheckAdd}  type="checkbox" />
+                  {/* {console.log(item)} */}
+                  
+                </td>
               </tr>
             </>
           ))}
+          
 
           {/* <td>
             <i class="fa-solid fa-circle-info"></i>
@@ -166,6 +231,8 @@ function Products() {
             <input type="checkbox" />
           </td> */}
         </table>
+        
+       
       </div>
     </div>
   );
