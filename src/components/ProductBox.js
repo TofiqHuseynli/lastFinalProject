@@ -7,15 +7,26 @@ function ProductBox({productsState,badketAreaRef}) {
         <div>
             <h4>Basket products</h4>
         </div>
-        <div className='basket-product d-flex'>
-            <div className='basket-product-img '>
-                <h5>img</h5>
-            </div>
-            <div className='basket-product-items'>
-                <div className='basket-product-name'>Tishort</div>
-                <div className='basket-product-price'>100$</div>
-            </div>
-        </div>
+        {productsState.products.map((item)=>(
+            productsState.choosedProducts.map((p)=>{
+                if(p.includes(item.id)){
+                        return(
+                            <>          
+                        <div className='basket-product d-flex'>
+                        <div className='basket-product-img '>
+                            <h5>{item.id}</h5>
+                        </div>
+                        <div className='basket-product-items'>
+                            <div className='basket-product-name'>{item.name}</div>
+                            <div className='basket-product-price'>100$</div>
+                        </div>
+                    </div>
+                        </>
+                        )
+                }  
+            })
+        ))}
+       
         
       
     </div>

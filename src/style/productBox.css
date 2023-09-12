@@ -1,10 +1,11 @@
 .products-box-div{
     width: 350px;
     height: 100vh;
-    background-color: rebeccapurple;
+    background-color: white;
     position: absolute;
     top: 0;
     right: 0;
+    color: black;
     transition: 0.3s ease;
 }
 
@@ -12,7 +13,7 @@
     transform: translateX(350px);
     width: 350px;
     height: 100vh;
-    background-color: rebeccapurple;
+    background-color: white;
     position: absolute;
     top: 0;
     right: 0;

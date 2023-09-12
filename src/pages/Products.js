@@ -58,10 +58,10 @@ function Products() {
 
   const handleCheckAdd=(e)=>{
     if(e.target.checked){
-      setProductsState({choosedProducts:[...productsState.choosedProducts, e.target.name]});
+      setProductsState({choosedProducts:[...productsState.choosedProducts, e.target.id]});
     }else{
       let newChecked = productsState.choosedProducts
-      setProductsState({choosedProducts:newChecked.filter((item)=>item !== e.target.name)})
+      setProductsState({choosedProducts:newChecked.filter((item)=>item !== e.target.id)})
     }
   }
 
@@ -185,10 +185,7 @@ function Products() {
       </div>
       <ProductBox  productsState={productsState} badketAreaRef={badketAreaRef}/>
 
-      {productsState.choosedProducts.map((item)=>(
-           
-console.log(item)
-        ))}
+    
         
 
       <div className={productsState.filtersShow ? "products-table-div-active" : "products-table-div"}>
@@ -215,8 +212,8 @@ console.log(item)
                   <i class="fa-solid fa-circle-info"></i>
                 </td>
                 <td className="text-center delete-check">
-                  <input name={`{"name":${item.name},"email":${item.email},"phone":${item.phone}}`}  onChange={handleCheckAdd}  type="checkbox" />
-                  {/* {console.log(item)} */}
+                  <input id={item.id}  onChange={handleCheckAdd}  type="checkbox" />
+                
                   
                 </td>
               </tr>
