@@ -41,23 +41,31 @@
 .products-columns-drop-div{
     background-color: rgb(241, 241, 241);
     width: 190px;
-    height: auto;
+    height: 220px!important;
     font-size: 19px;
     position: absolute;
-    top: 260px;
-    right: 168px;
+    top: 185px;
+    right: 145px;
     border-radius: 10px;
     height: auto;
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    padding: 10px 0;
+    margin: 10px 20px;
     color: rgb(58, 58, 58);
+    border-radius: 8px;
+    z-index: 999;
 
 }
 
 .products-columns-drop-div-active{
     display: none;
+}
+
+.products-columns-drop-component{
+    width: 100%!important;
+    height: 100%!important;
+    border-radius: 8px;
 }
 
 .products-columns-drop-component ul{
@@ -100,21 +108,22 @@
 
 .products-table-div{
     overflow-y: scroll;
-    height: 68vh;
-    /* padding-bottom: 5px ; */
+    height: 72vh!important;
+    
+    
 }
 
 
 .products-table-div-active{
     overflow-y: scroll;
-    height: 60vh;
-    /* padding-bottom: 5px ; */
+    height: 66vh!important;
+   
 }
 
-.products-table-div table{
+/* .products-table-div table{
     height: 60vh!important;
     margin-bottom: 20px!important;
-}
+} */
 
 
 .basked-div{
@@ -193,4 +202,90 @@
    
     color: rgb(160, 160, 160)!important;
     font-size: 22px;
+}
+
+.product-image{
+    width: 70px;
+    height: 70px;
+}
+
+.title {
+    width: 320px;
+    
+}
+
+.table-header,.table-header th {
+    max-height: 40px!important;
+
+}
+
+
+.pagination-div{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 20px!important;
+}
+
+.products-select-div select{
+    outline: none;
+   
+}
+
+.pages-area-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page-div{
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+    background-color: rgb(56, 170, 236);
+    color: rgb(223, 221, 221);
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.2s ease;
+    margin-right: 4px;
+}
+
+.page-div:hover{
+    cursor: pointer;
+    background-color: rgb(236, 148, 89);
+   
+}
+
+.page-div-active{
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+    background-color: rgb(236, 148, 89);
+    color: rgb(223, 221, 221);
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.2s ease;
+    margin-right: 4px;
+
+}
+
+
+
+
+.table-img{
+    width: 80px;
+}
+
+.table-rating{
+    width: 110px;
+}
+
+.table-id{
+    width: 30px;
 }

@@ -22,15 +22,20 @@
 
       .products-table-div{
         overflow-y: scroll;
-        height: 50vh;
+        height: 58vh!important;
   
     }
     
     
     .products-table-div-active{
         overflow-y: scroll;
-        height: 40vh;
+        height: 50vh!important;
   
+    }
+
+    .ff{
+      width: 250px!important;
+      height: 130px!important;
     }
     
 }

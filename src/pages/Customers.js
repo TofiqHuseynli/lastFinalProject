@@ -184,7 +184,6 @@ const Customers = () => {
   
 
   const chooseFunc = (e)=>{
-    
     if(e.target.checked){
       setChecked([...checked, e.target.id]);
     }else{
