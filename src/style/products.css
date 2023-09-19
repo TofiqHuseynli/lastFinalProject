@@ -235,10 +235,14 @@
 }
 
 .pages-area-div{
+
     display: flex;
     justify-content: center;
     align-items: center;
+  
 }
+
+
 
 .page-div{
     width: 20px;
@@ -288,4 +292,16 @@
 
 .table-id{
     width: 30px;
+}
+
+.product-info-img-div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.product-info-img-div img{
+    height: 100px;
+    width: 110px;
 }

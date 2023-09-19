@@ -15,12 +15,12 @@ function Products() {
         JSON.parse(localStorage.getItem("productsColumnsShow")) || false,
       choosedProducts:[],
       baketShow:false,
-      productsSearchInput:"",
+      productsSearchInput:  JSON.parse(localStorage.getItem("serarchItem")) || "",
       productPriceInput:"",
-      pageLengthSelect:"5",
-      currentPage:"1",
+      pageLengthSelect:JSON.parse(localStorage.getItem("pages")) || "5",
+      currentPage: JSON.parse(localStorage.getItem("page")) || "1",
       newProducts:[],
-      selectedProducts:['id', 'title', 'price', 'category', 'image', 'rating'],
+      selectedProducts: JSON.parse(localStorage.getItem("filterColumns")) || ['id', 'title', 'price', 'category', 'image', 'rating'],
       productInfoShow:false,
       productInfoId:""
     }
@@ -157,6 +157,9 @@ function Products() {
       setProductsState({currentPage:pageNum})
     }
 
+    localStorage.setItem("page",JSON.stringify(productsState.currentPage))
+    localStorage.setItem("pages",JSON.stringify(productsState.pageLengthSelect))
+
     
     const fillProductsArray = (e) => {
       if (e.target.checked) {
@@ -167,6 +170,8 @@ function Products() {
         ]});
       }
     };
+
+    localStorage.setItem("filterColumns",JSON.stringify(productsState.selectedProducts));
 
 
 
@@ -211,6 +216,7 @@ function Products() {
     console.log(productsState.productPriceInput)
   
   
+    localStorage.setItem("serarchItem",JSON.stringify(productsState.productsSearchInput))
 
 
   return (
@@ -234,7 +240,7 @@ function Products() {
               </button> */}
             </div>
             <div className="mx-2 products-functional-area-search-input ">
-              <input placeholder="Search..." className="form-control " type="text" onChange={(e)=>{
+              <input value={productsState.productsSearchInput} placeholder="Search..." className="form-control " type="text" onChange={(e)=>{
                 setProductsState({productsSearchInput:e.target.value})
               }}></input>
               <div className="search-icon-div">
@@ -284,7 +290,7 @@ function Products() {
               <option>All</option>
               <option>Name</option>
             </select> */}
-            <input onChange={(e)=>setProductsState({productPriceInput:e.target.value})} className="form-control" placeholder="price"></input>
+            <input  onChange={(e)=>setProductsState({productPriceInput:e.target.value})} className="form-control" placeholder="price"></input>
             {/* <input type="select" className="form-control"></input> */}
           </div>
           <div className="user-filer d-flex">
@@ -332,10 +338,7 @@ function Products() {
           {currentPosts.filter((item) =>{
             return productsState.productsSearchInput.toLocaleLowerCase() === ""
               ? item
-              : item.title.toLocaleLowerCase().includes(productsState.productsSearchInput).filter((i)=>{
-                item.category.toLocaleLowerCase().includes(productsState.productsSearchInput)
-
-              });
+              : item.title.toLocaleLowerCase().includes(productsState.productsSearchInput);
           }).map((item, key) => (
             <>
               <tr  className="table-body" key={key}>
@@ -344,7 +347,7 @@ function Products() {
                   {productsState.selectedProducts.includes(k) && (
                       
                       k==="image" ? <td className="table-img"> <img className="product-image"  src={item[k]}>
-                      </img> </td> : k==="rating" ? <td className="table-rating"> {"rate: " + item.rating.rate + " count: " + item.rating.rate} </td>  
+                      </img> </td> : k==="rating" ? <td className="table-rating"> {"rate: " + item.rating.rate } <br></br> {" count: " + item.rating.rate} </td>  
                         : <td className={k=="title" ? "title" : k=="id" ? "table-id" : "no-title"}>  {JSON.stringify(item[k])}</td> 
                     )}
                   
@@ -375,17 +378,18 @@ function Products() {
         </table>
         <div className="pagination-div">
         <div className="products-select-div">
-          <select onChange={(e)=>{
+          <select value={productsState.pageLengthSelect} onChange={(e)=>{
             setProductsState({pageLengthSelect:e.target.value})
             dataProducts();
             }}>
             <option>5</option>
-            <option>10</option>
+            <option >10</option>
             <option>15</option>
             <option>20</option>
           </select>
         </div>
         <div className="pages-area-div">
+          
         {pageArray.map((item)=>(
           
           <>

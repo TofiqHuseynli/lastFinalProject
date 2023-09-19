@@ -10,7 +10,8 @@ function ProductInfo({handleProducsCloseInfo,productsState}) {
           description:"",
           price:"",
           category:"",
-          rating:""
+          rating:"",
+          image:""
 
 
             
@@ -26,6 +27,7 @@ function ProductInfo({handleProducsCloseInfo,productsState}) {
                 setproductsInfoState({price:item.price})
                 setproductsInfoState({category:item.category})
                 setproductsInfoState({rating:item.rating})
+                setproductsInfoState({image:item.image})
           }
           
         })
@@ -39,6 +41,12 @@ function ProductInfo({handleProducsCloseInfo,productsState}) {
         <Modal.Title>Info</Modal.Title>
       </Modal.Header>
       <Modal.Body className="dark-mode-modal">
+        <div className="mb-3 product-info-img-div">
+          <div className='re'>
+              <img className="product-image"  src={productsInfoState.image}></img> 
+          </div>
+      
+        </div>
         <div className="mb-3">
           {" "}
           <label>Title</label>
