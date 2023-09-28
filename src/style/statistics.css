@@ -1,0 +1,106 @@
+.statistics{
+    padding: 20px;
+}
+
+.statistics-category{
+    display: flex;
+}
+
+.statistics-category div{
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.statistics-category div input{
+    margin-right: 8px;
+   
+}
+
+.statistics-category div input:hover{
+    cursor: pointer;
+   
+}
+
+.statistics-check{
+    width: 18px;
+    height: 18px;
+}
+
+.table-div{
+    display: flex;
+    position: relative;
+    width: 100%;
+    margin-top: 20px;
+    height: 640px!important;
+  
+}
+
+
+
+.table-div tr,.table-div td {
+    border: 2px dashed rgb(151, 151, 151);
+    width: 150px;
+    height: 160px;
+}
+
+.diogram-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 95px;
+    
+
+}
+
+.diogram-common{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    bottom: -40px;
+    left: 40px;
+    justify-content: center;
+}
+.diograms{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+    
+}
+
+.yellow{
+    width: 30px;
+    /* height: 640px; */
+    background-color: rgb(218, 159, 50);
+    border-radius: 8px;
+    margin-right: 8px;
+}
+.blue{
+    width: 30px;
+    height: 140px;
+    background-color: rgb(49, 189, 224);
+    border-radius: 8px;
+    margin-right: 8px;
+}
+
+.red{
+    width: 30px;
+    height: 100px;
+    background-color:rgb(179, 0, 104);
+    border-radius: 8px;
+}
+
+.diogram-rate p{
+    margin-left: 10px;
+    margin-bottom: 120px;
+    align-items: center;
+
+}
+
+.thirth{
+    margin-bottom: 1110px;
+}

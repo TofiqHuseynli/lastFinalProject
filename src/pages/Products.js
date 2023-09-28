@@ -213,7 +213,7 @@ function Products() {
     }
 
 
-    console.log(productsState.productPriceInput)
+    
   
   
     localStorage.setItem("serarchItem",JSON.stringify(productsState.productsSearchInput))
